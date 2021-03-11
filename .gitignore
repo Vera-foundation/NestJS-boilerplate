@@ -12,7 +12,7 @@ lerna-debug.log*
 # OS
 .DS_Store
 
-# Dependency
+# Dependency directory
 node_modules
 
 # Tests
@@ -32,4 +32,5 @@ coverage
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.vscode/launch.json
 
