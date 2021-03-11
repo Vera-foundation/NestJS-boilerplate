@@ -1,0 +1,21 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      "i18n/**/*"
+    ],
+    "webpack": true
+  },
+  "projects": {
+    "nest-boilerplate": {
+      "type": "library",
+      "root": "libs/nest-boilerplate",
+      "entryFile": "index",
+      "sourceRoot": "libs/nest-boilerplate/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/nest-boilerplate/tsconfig.lib.json"
+      }
+    }
+  }
+}
